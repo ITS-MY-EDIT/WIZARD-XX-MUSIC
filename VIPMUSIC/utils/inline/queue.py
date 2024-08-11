@@ -72,11 +72,11 @@ def aq_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
+         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/WIZARD_MUSIC_BOT?startgroup=true",)
         ],
         [
-         InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/+Ckzm2ypQyIIzZTll",),
-         InlineKeyboardButton(text="• ᴜᴘᴅᴀᴛᴇ •", url=f"https://t.me/ALL_SANATANI_BOT"),
+         InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/+6_MRCBLepxQ1MzQ9",),
+         InlineKeyboardButton(text="• ᴜᴘᴅᴀᴛᴇ •", url=f"https://t.me/+6_MRCBLepxQ1MzQ9"),
         ],
         [
             InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
