@@ -29,7 +29,7 @@ rel = {}
 
 @app.on_message(
     filters.command(
-        ["admincache", "reload", "refresh"],
+        ["madmincache", "mreload", "mrefresh"],
         prefixes=["/", "!", "%", ",", "", ".", "@", "#"],
     )
     & filters.group
