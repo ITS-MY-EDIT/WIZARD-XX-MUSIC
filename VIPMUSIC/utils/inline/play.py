@@ -1,7 +1,5 @@
 import math
 
-from config import SUPPORT_CHAT, OWNER_ID
-
 from pyrogram.types import InlineKeyboardButton
 
 from VIPMUSIC.utils.formatters import time_to_seconds
@@ -77,11 +75,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
+         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/WIZARD_MUSIC_BOT?startgroup=true",)
         ],
         [
-         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"tg://openmessage?user_id=5959548791"),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"{SUPPORT_CHAT}",),
+         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"tg://openmessage?user_id=882716913"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"https://t.me/Wizard_ki_Public",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -99,11 +97,11 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
+         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/WIZARD_MUSIC_BOT?startgroup=true",)
         ],
         [
-         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"tg://openmessage?user_id=5959548791"),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"{SUPPORT_CHAT}",),
+         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"tg://openmessage?user_id=882716913"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"https://t.me/Wizard_ki_Public",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -196,11 +194,11 @@ def queue_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
+            InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/WIZARD_MUSIC_BOT?startgroup=true",)
         ],
         [
-            InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"tg://openmessage?user_id=5959548791"),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"{SUPPORT_CHAT}",),
+            InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"tg://openmessage?user_id=882716913"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"https://t.me/Wizard_ki_Public",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -219,11 +217,11 @@ def telegram_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
+         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/WIZARD_MUSIC_BOT?startgroup=true",)
         ],
         [
-         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"tg://openmessage?user_id=5959548791"),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"{SUPPORT_CHAT}",),
+         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"tg://openmessage?user_id=882716913"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"https://t.me/Wizard_ki_Public",),
         ],
         [
             InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
@@ -445,11 +443,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
+         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/WIZARD_MUSIC_BOT?startgroup=true",)
         ],
         [
-         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"tg://openmessage?user_id=5959548791"),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"{SUPPORT_CHAT}",),
+         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url=f"tg://openmessage?user_id=882716913"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"https://t.me/Wizard_ki_Public",),
         ],
         [
             InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
