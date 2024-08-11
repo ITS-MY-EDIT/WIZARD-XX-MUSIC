@@ -27,7 +27,7 @@ def testspeed(m, _):
 
 @app.on_message(
     filters.command(
-        ["speedtest", "spt"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]
+        ["mspeedtest", "mspt"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]
     )
     & SUDOERS
 )
